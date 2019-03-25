@@ -38,11 +38,7 @@ export default {
   },
   methods: {
     callApi() {
-      fetch("//localhost:3001/api/ping", {
-        headers: {
-          Accept: "application/json"
-        }
-      })
+      fetch("//localhost:3001/api/ping")
         .then(async response => {
           if (response.ok) {
             this.apiError = false;
