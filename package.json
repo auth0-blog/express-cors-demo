@@ -10,6 +10,7 @@
     "dev": "npm-run-all --parallel serve start-server-dev"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "debug": "^4.1.1",
     "express": "^4.16.4",
     "morgan": "^1.9.1",
